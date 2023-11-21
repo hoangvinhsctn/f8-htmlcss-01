@@ -285,7 +285,7 @@ a {
 /* =============Featured============= */
 .featured {
     margin-top: 41px;
-    padding: 110px;
+    padding: 110px 0;
     background: #f5fafe;
 }
 
@@ -321,7 +321,8 @@ a {
 }
 
 .featured .list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 70px;
 }
@@ -598,7 +599,7 @@ a {
 }
 
 .footer .row-top {
-    gap: 185px;
+    column-gap: 185px;
 }
 
 .footer .heading {
