@@ -54,8 +54,8 @@ a {
 .fix-header {
     background-color: #e6f0ff;
     position: sticky;
-    padding-top: 26px;
-    top: -26px;
+    padding-top: 25px;
+    top: -25px;
     z-index: 1;
 }
 
@@ -65,13 +65,13 @@ a {
     display: flex;
     flex-direction: column;
     background-color: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 90px);
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    padding: 12px 0;
+    padding: 13px 0;
 }
 
 .navbar ul {
