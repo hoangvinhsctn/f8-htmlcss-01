@@ -51,8 +51,19 @@ a {
 }
 
 /* ==== Header ==== */
+.fix-header {
+    background-color: #e6f0ff;
+    position: sticky;
+    padding-top: 26px;
+    top: -26px;
+    z-index: 1;
+}
 
-.header {
+/* ==== Hero ==== */
+
+.hero-wrap {
+    display: flex;
+    flex-direction: column;
     background-color: #e6f0ff;
     height: 100vh;
 }
@@ -60,7 +71,7 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    padding: 12px 0;
 }
 
 .navbar ul {
